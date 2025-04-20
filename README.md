@@ -13,10 +13,10 @@ Within the backend there were 2 main files that were used. Server.js encapsulate
 implementation of Express and Mongoose (for use with MongoDB). It connected to the database
 and created routes for the front end and the queries.js file to use. Queries.js contains queries to
 the mongoDB database (such as login and signup) to be used throughout the application. For the
-backend, we had to install cors and mongoose and node dependencies to avoid issues running the
+backend, I had to install cors and mongoose and node dependencies to avoid issues running the
 frontend and backend concurrently and connecting to the database.
 
-There were numerous new React components we had to build for this application. As any
+There were numerous new React components I had to build for this application. As any
 application with a user functionality, there needed to be a login and signup page, both of which
 were separate components that interacted with the backend and the database to authenticate
 users. The home page encapsulated the component “Product List” in order to hide the
@@ -25,7 +25,7 @@ components were used to let the user add a subscription and see their orders res
 subscription page hit an api endpoint that created a new entry into the subscription database in
 our MongoDB cluster. The orders page hit the same endpoint but with a get request to see the
 orders that a given user had made. Finally the profile page displays the information about the
-user and allows the functionality to logout of the application. On the frontend, we opted to use
+user and allows the functionality to logout of the application. On the frontend, I opted to use
 the bootstrap framework as it seemed like the most simple and widely used. It made it very easy
 to create the structure of our navigation bar and other styling.
 
